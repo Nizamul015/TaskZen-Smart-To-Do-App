@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #4facfe, #00f2fe);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: white;
+  transition: 0.3s;
+}
+
+.header {
+  position: absolute;
+  top: 20px;
+  padding: 8px 20px;
+  border-radius: 20px;
+  background: rgba(255,255,255,0.2);
+  backdrop-filter: blur(10px);
+}
+
+.container {
+  background: rgba(255,255,255,0.1);
+  padding: 30px;
+  border-radius: 20px;
+  width: 320px;
+  backdrop-filter: blur(15px);
+}
+
+h1 {
+  text-align: center;
+}
+
+.input-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+input, select {
+  padding: 8px;
+  border-radius: 10px;
+  border: none;
+  margin: 5px;
+}
+
+button {
+  padding: 8px 12px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.task {
+  margin: 10px 0;
+  padding: 10px;
+  background: rgba(255,255,255,0.2);
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.completed {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+.progress {
+  margin-top: 15px;
+  height: 10px;
+  background: rgba(255,255,255,0.2);
+  border-radius: 10px;
+}
+
+#progressBar {
+  height: 100%;
+  width: 0%;
+  background: lime;
+  border-radius: 10px;
+}
+
+.dark {
+  background: #121212;
+}
